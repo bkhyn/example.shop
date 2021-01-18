@@ -1,0 +1,195 @@
+body {
+  text-size-adjust: 100%;
+  overflow-x: hidden;
+  color: rgb(15, 15, 15);
+  font: 300 14px / 1.9 "Noto Sans JP", Arial, Verdana, 游ゴシック, YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", メイリオ, Meiryo, sans-serif;
+  background: #fff;
+}
+
+a{
+  color: rgb(5, 5, 5);
+  text-decoration: none;
+}
+
+.side-bar{
+  width: 20%;
+  position: fixed;
+  right: 0;
+  height: 100%;
+}
+
+li{
+  list-style: none;
+}
+
+.side-logo{
+  height: 22px;
+  width: 87px;
+  padding: 28px 0 48px 5px;
+}
+
+.side-contents{
+  padding-left: 18%;
+}
+
+.side-menu li a{
+  font-family: 'Modern Antiqua', 'Noto Sans JP',serif;
+  font-size: 14px;
+  width: 2px;
+  height: 2px;
+}
+
+.side-menu li a:hover{
+  text-decoration: underline;
+}
+
+.side-menu li{
+  padding-bottom: 25px;
+}
+
+.side-icons .fab{
+  padding: 45px 10px 0 0;
+  width: 20px;
+  height: 20px;
+}
+
+.side-icons .fab:hover{
+  opacity: 0.3;
+}
+
+.contents{
+  width: 80%;
+}
+
+.top-img{
+  width: 100%;
+}
+
+.message-wrapper{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.heading{
+  font-family: 'Modern Antiqua', 'Noto Sans JP',serif;
+  font-size: 22px;
+  padding: 85px 0 22px 0;
+  margin-bottom: 62px;
+  border-bottom: 3px solid black;
+  display: inline-block;
+}
+
+.textarea{
+  width: 67%;
+  margin: 0 auto;
+  text-align: left;
+  padding-bottom: 80px;
+  line-height: 1.5;
+}
+
+.photo-wrapper img{
+  width: 33.333%;
+  display: block;
+  float: left;
+}
+
+span .big-photo{
+  width: 100%;
+}
+
+.brand-wrapper{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.brand-contents{
+  display: flex;
+  padding-bottom: 50px;
+  border-bottom: 1px solid black;
+}
+
+.contents-item{
+  width: 25%;
+  padding: 0 25px;
+  text-align: left;
+}
+
+.contents-item img{
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.contents-item p{
+  line-height: 2;
+}
+
+.project-wrapper{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 120px;
+  border-bottom: 1px solid black;
+}
+
+.project-item{
+  display: flex;
+  padding-bottom: 70px;
+}
+
+.project-item img{
+  width: 375px;
+  height: 225px;
+  padding-right: 20px;
+}
+
+.project-item p {
+  text-align: left;
+}
+
+.company-wrapper{
+  width: 84%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.company-contents{
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 200px;
+}
+
+.adres{
+  text-align: left;
+  margin-right: 10%;
+  line-height: 30px;
+}
+
+.ggmap{
+  width: 60%;
+  position: relative;
+  padding-bottom: 30%;
+}
+
+iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+footer{
+  width: 80%;
+  text-align: center;
+}
+
+footer p{
+  padding-bottom: 60px;
+  font-size: 13px;
+}
+
+footer a{
+  color: blue;
+}
